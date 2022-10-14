@@ -4,7 +4,6 @@ IDEALL Social Media
 ![image](https://user-images.githubusercontent.com/115421396/195800913-078a853b-9ca6-4778-a49a-847e2c27458c.png)
 ![image](https://user-images.githubusercontent.com/115421396/195801053-5afdeaa4-6aaa-4311-a8de-649840819281.png)
 ![image](https://user-images.githubusercontent.com/115421396/195804158-f792b55f-6f4d-4a8f-a5ba-b83239f337eb.png)
-
 ![image](https://user-images.githubusercontent.com/115421396/195801217-80744b12-c3b9-415d-8b53-5b5eb60c9885.png)
 ![image](https://user-images.githubusercontent.com/115421396/195801295-6e92efe9-78e9-4e4d-82df-609e16dd06dc.png)
 ![image](https://user-images.githubusercontent.com/115421396/195801427-90aac4d1-7ba8-4f24-b04b-fb343cc9878f.png)
