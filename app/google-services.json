@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785657840547",
+    "firebase_url": "https://ideall-b4b40-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ideall-b4b40",
+    "storage_bucket": "ideall-b4b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785657840547:android:3bd3d207fe006ab5f6d016",
+        "android_client_info": {
+          "package_name": "com.ideall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785657840547-f4gd4o9jutk062cv6paslr6cohnqfe5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoSS3DzaBdZAeo5j9Xt2yds71YqmjYuGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785657840547-f4gd4o9jutk062cv6paslr6cohnqfe5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

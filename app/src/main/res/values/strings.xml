@@ -1,0 +1,281 @@
+<resources>
+
+    <string-array name="category_array">
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Envoiroment</item>
+        <item>Family</item>
+        <item>Office Ideas</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ideas_array">
+        <item>New Idea</item>
+        <item>Library</item>
+        <item>Meditation Room</item>
+        <item>Plants for employees</item>
+        <item>New product upgrade</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="app_name">IDEALL</string>
+    <string name="signIn">Sign In</string>
+    <string name="signInWelcome">Hi there! Nice to see you again!</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signUpWelcome">Welcome to IDEALL enjoy!</string>
+    <string name="user">User</string>
+    <string name="enterUserName">Enter User Name</string>
+    <string name="password">Password</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="forgotPassword"><a href="http://ideall.com/">Forgot password?</a></string>
+    <string name="termsAndPolicy">I agree to the Terms of Services and Policy.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ideas">ideas</string>
+    <string name="last_60_days">Last 60 Days</string>
+    <string name="ideas_in_company">Ideas in Company</string>
+    <string name="email">Email</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="save">Save</string>
+    <string name="typeMessage">Type Message</string>
+    <string name="newIdea">New Idea</string>
+    <string name="updateIdea">Uptade Idea</string>
+    <string name="enterIdeaName">Enter Idea Name</string>
+    <string name="ideaCategory">Idea Category</string>
+    <string name="relateIdea">Relate to Existing Idea</string>
+    <string name="postIdea">Post Idea</string>
+    <string name="describeNewIdea">Describe New Idea</string>
+    <string name="describePurpose">Describe Idea Porpuse</string>
+    <string name="describePresent">Describe Present State</string>
+    <string name="describeEffect">Describe Idea Effects</string>
+    <string name="describePlan">Describe Idea Plan</string>
+    <string name="describeResults">Describe Results</string>
+    <string name="describeFeelings">Describe Feelings</string>
+    <string name="describeResultsChanges">Describe Changes</string>
+    <string name="KeyMoments">Key Moments</string>
+
+
+    <!-- permission message -->
+    <string name="permission_denied">Storage access permission is required to run this feature.</string>
+
+    <!-- intro text -->
+    <string name="intro_one_text">Organize your ideas\ninto a mind map!</string>
+    <string name="intro_two_text">Manage mind map\nas a series</string>
+    <string name="intro_three_text">save mind map\nas a picture</string>
+
+    <!-- button -->
+    <string name="ok">OK</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+
+    <!-- Toolbar -->
+    <string name="main_toolbar_title">Idea List</string>
+    <string name="main_toolbar_hint">Search for ideas</string>
+    <string name="starred_toolbar_title">Starred</string>
+    <string name="series_list_toolbar_title">Series List</string>
+    <string name="series_title_edit">Title</string>
+    <string name="series_description_edit">Description</string>
+    <string name="setting_toolbar_title">Setting</string>
+
+    <!-- menu -->
+    <string name="search_menu">Search</string>
+    <string name="series_add_menu">Add series</string>
+    <string name="series_delete_menu">Delete series</string>
+    <string name="add_idea_menu">Add idea</string>
+
+    <string name="idea_title_edit_menu">Edit Idea Title</string>
+    <string name="idea_save_menu">Save Idea</string>
+    <string name="idea_delete_menu">Delete Idea</string>
+    <string name="idea_series_add_menu">Add to series</string>
+    <string name="idea_export_menu">Export</string>
+
+    <string name="action_mode_select_all_menu">Select all</string>
+    <string name="action_mode_delete_menu">Delete</string>
+
+    <string name="drawer_starred_menu">Starred</string>
+    <string name="drawer_setting_menu">Setting</string>
+
+    <string name="drawer_series_title">Series</string>
+    <string name="drawer_series_list">Series list</string>
+    <string name="drawer_series_one">Series 1</string>
+    <string name="drawer_series_two">Series 2</string>
+    <string name="drawer_series_three">Series 3</string>
+
+    <string name="version_text" translatable="false">Ver.</string>
+
+    <!-- sort -->
+    <string name="sort_group">SORT BY</string>
+    <string name="sort_title">Idea title</string>
+    <string name="sort_created_date">Idea creation date</string>
+    <string name="sort_modified_date">Last modified date</string>
+    <string name="sort_starred">Starred date</string>
+    <string name="sort_series">Date added to series</string>
+
+    <!-- AlertDialog -->
+    <string name="permission_dialog_title">Permission</string>
+    <string name="permission_dialog_msg">Storage access permission is required to run this feature.
+        Please allow storage access permission at [Settings > Permission]</string>
+    <string name="delete_dialog_msg">Are you sure you want to delete?</string>
+    <string name="series_delete_dialog_title">Series delete</string>
+    <string name="series_delete_dialog_msg">Are you sure you want to delete this series?</string>
+    <string name="edit_title_dialog_title">Edit title</string>
+    <string name="add_item_dialog_title">Add new item</string>
+    <string name="edit_item_text_dialog_title">Edit item text</string>
+    <string name="item_delete_dialog_msg">Are you sure you want to delete this item?</string>
+    <string name="idea_delete_dialog_msg">Are you sure you want to delete this idea?</string>
+    <string name="delete_selected_dialog_msg">Are you sure you want to delete the selected ideas?</string>
+    <string name="remove_selected_from_series_dialog_msg">Are you sure you want to remove the selected ideas from the series?</string>
+    <string name="unstarred_selected_dialog_msg">Are you sure you want to change the selected ideas to an asterisk-free state?</string>
+
+    <string name="export_idea_dialog_title">Save as Image</string>
+
+    <string name="background_color_dialog_title">Select background color</string>
+    <string name="text_color_dialog_title">Select text color</string>
+
+    <string name="dialog_apply">APPLY</string>
+    <string name="dialog_discard">DISCARD</string>
+    <string name="dialog_delete">DELETE</string>
+    <string name="dialog_cancel">CANCEL</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_save">SAVE</string>
+    <string name="dialog_setting">SETTINGS</string>
+
+
+    <!-- Fab -->
+    <string name="main_add_fab">Add an idea</string>
+    <string name="series_add_fab">Add ideas at series</string>
+
+    <!-- Bottom Sheet -->
+    <string name="add_idea_title">Create Idea</string>
+    <string name="add_mind_map">MIND MAP</string>
+    <string name="add_flow_chart">FLOW CHART</string>
+
+    <!-- Diagram Edit -->
+    <string name="new_mind_map">New mind map</string>
+    <string name="new_flow_chart">New Flow Chart</string>
+
+    <!-- Hint -->
+    <string name="title_edit_hint">Input new title</string>
+    <string name="item_text_edit_hint">Input item text</string>
+    <string name="series_add_hint">Series add</string>
+
+    <!-- Error msg -->
+    <string name="no_character">Please enter a letter.</string>
+
+    <!-- toast -->
+    <string name="no_character_toast">Character must be entered.</string>
+    <string name="saved_as_image">Saved as an image.</string>
+    <string name="saved_series">Series information has been changed.</string>
+
+    <!-- Idea List -->
+    <string name="idea_list_date">Last modified Date:</string>
+    <string name="selected_idea_count">\t selected</string>
+
+    <!-- Series -->
+    <string name="new_series">New Series</string>
+    <string name="no_series">No Series</string>
+
+    <!-- ColorPicker -->
+    <string name="recently_used_color">Recently used color</string>
+
+    <!-- Setting Fragment -->
+    <string name="theme_setting">Themes</string>
+    <string name="system_theme">System Mode</string>
+    <string name="system_theme_detail">Automatically switches to light/dark mode according to system settings.</string>
+    <string name="light_theme">Light Mode</string>
+    <string name="dark_theme">Dark Mode</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>

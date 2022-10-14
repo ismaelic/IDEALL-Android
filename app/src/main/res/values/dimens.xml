@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="transparent_btn_text_size">16sp</dimen>
+    <dimen name="toolbar_text_size">18sp</dimen>
+    <dimen name="toolbar_label_size">14sp</dimen>
+    <dimen name="filter_group_title_size">16sp</dimen>
+    <dimen name="add_idea_title_size">16sp</dimen>
+
+    <dimen name="chart_padding">16dp</dimen>
+    <dimen name="min_chart_size">100dp</dimen>
+
+    <!-- item style -->
+    <dimen name="primary_item_corner_radius">32dp</dimen>
+    <dimen name="item_corner_radius">24dp</dimen>
+    <dimen name="primary_item_text_size">24dp</dimen>
+    <dimen name="item_text_size">12dp</dimen>
+
+    <dimen name="item_padding_vertical">16dp</dimen>
+    <dimen name="item_padding_horizontal">8dp</dimen>
+
+    <dimen name="item_max_width">200dp</dimen>
+
+    <dimen name="edge_width">3dp</dimen>
+
+
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

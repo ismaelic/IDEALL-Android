@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.first_Ideall">
+    <!-- Adding Internet Permision -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Adding Audio and Storage Permisions I also go to Setting and allow mic and storage -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ideall"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.first_Ideall.activities.ExploreActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.first_Ideall.activities.PostRawActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.first_Ideall.activities.MindMapActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.first_Ideall.activities.IdeaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.first_Ideall.activities.MyIdeasActivity"
+            android:exported="false"
+            android:label="MY IDEAS"
+            android:theme="@style/Theme.ideallActionBar" />
+        <activity
+            android:name="com.first_Ideall.activities.NewIdeaActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.first_Ideall.activities.ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.first_Ideall.activities.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.first_Ideall.activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.first_Ideall.activities.SignUpActivity"
+            android:exported="true"
+            android:parentActivityName="com.first_Ideall.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.first_Ideall.activities.HomeActivity"
+            android:exported="true"
+            android:parentActivityName="com.first_Ideall.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-core:19.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/166258e3047ba38b17dc1d956e014950/transformed/jetified-firebase-core-19.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9270bd4698f05793c66ff93058dc60b/transformed/jetified-firebase-core-19.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/afd8f373b57da5a2b73e0735c8d597e9/transformed/jetified-firebase-core-19.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6b3fc559fae82df050bf9ddb91f7c72f/transformed/jetified-firebase-core-19.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/afd8f373b57da5a2b73e0735c8d597e9/transformed/jetified-firebase-core-19.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/afd8f373b57da5a2b73e0735c8d597e9/transformed/jetified-firebase-core-19.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-core/19.0.1/d1e51f04a4e0b3df1cf1e84e95c5aa758e6ad905/firebase-core-19.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

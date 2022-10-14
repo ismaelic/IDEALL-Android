@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ideaTitleEditMenu"
+        android:icon="@drawable/ic_edit"
+        android:title="Title"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ideaStarredMenu"
+        android:icon="@drawable/ic_star"
+        android:title="Save"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ideaDeleteMenu"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ideaSeriesAddMenu"
+        android:icon="@drawable/ic_bookmark"
+        android:title="Series"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ideaExportMenu"
+        android:icon="@drawable/ic_export"
+        android:title="Export"
+        app:showAsAction="never" />
+
+</menu>

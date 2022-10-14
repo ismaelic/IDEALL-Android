@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Scrollview takes the xmlns to be the leading page-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.HomeActivity">
+
+
+        <ImageView
+            android:id="@+id/iv_loginLogo"
+            android:layout_width="170dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ideall_logo" />
+
+        <GridLayout
+            android:id="@+id/gl_totalStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_loginLogo">
+
+            <ImageView
+                android:id="@+id/iv_total"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_company" />
+
+            <TextView
+                android:id="@+id/tv_totalNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="101"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_totalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp"
+                android:text="@string/ideas_in_company"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_totalSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_ideasStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="@id/gl_totalStats"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gl_totalStats">
+
+            <ImageView
+                android:id="@+id/iv_ideas"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_ideas" />
+
+            <TextView
+                android:id="@+id/tv_ideasNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_ideasText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Ideas"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_ideasSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_rawsStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toEndOf="@+id/gl_ideasStats"
+            app:layout_constraintTop_toBottomOf="@+id/gl_totalStats">
+
+            <ImageView
+                android:id="@+id/iv_raws"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_doc" />
+
+            <TextView
+                android:id="@+id/tv_rawsNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rawsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Raws"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_rawsSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_goalsStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gl_ideasStats">
+
+            <ImageView
+                android:id="@+id/iv_goals"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_share" />
+
+            <TextView
+                android:id="@+id/tv_goalsNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_goalsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Goals"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_goalsSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_habitsStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toEndOf="@+id/gl_goalsStats"
+            app:layout_constraintTop_toBottomOf="@+id/gl_rawsStats">
+
+            <ImageView
+                android:id="@+id/iv_habits"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_stats" />
+
+            <TextView
+                android:id="@+id/tv_habitsNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_habitsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Habits"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_habitsSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_coursesStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:paddingRight="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gl_goalsStats">
+
+            <ImageView
+                android:id="@+id/iv_courses"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_formation" />
+
+            <TextView
+                android:id="@+id/tv_coursesNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_coursesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Courses"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_coursesSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gl_chatsStats"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borders_12"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintStart_toEndOf="@+id/gl_coursesStats"
+            app:layout_constraintTop_toBottomOf="@+id/gl_habitsStats">
+
+            <ImageView
+                android:id="@+id/iv_chats"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_chats" />
+
+            <TextView
+                android:id="@+id/tv_chatsNum"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_chatsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="Chats"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/tv_chatsSubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/last_60_days"
+                android:textSize="14sp" />
+
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

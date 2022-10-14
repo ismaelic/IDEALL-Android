@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#fc802d</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#ABB5BE</color>
+    <color name="soft_gray">#E8E8E8</color>
+    <color name="soft_orange">#FCC390</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#D12A02</color>
+    <color name="white_gray">#F2F2F2</color>
+
+
+    <color name="selected_bg_color">@color/soft_orange</color>
+    <color name="unselected_bg_color">@color/white</color>
+    <color name="selected_txt_color">@color/orange</color>
+    <color name="unselected_txt_color">@color/black</color>
+
+</resources>
